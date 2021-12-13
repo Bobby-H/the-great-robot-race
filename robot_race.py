@@ -18,7 +18,6 @@ while not rr.is_race_over(bots) and num_of_turns < max_turns:
   # For every bot in the list of bots, if the bot has not reached the end, add a new move to the robot_moves deque
   # Add your code below!
 
-
   num_of_turns += 1
 
 # Count the number of moves based on the robot names
