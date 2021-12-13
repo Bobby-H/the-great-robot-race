@@ -17,6 +17,9 @@ num_of_turns = 0
 while not rr.is_race_over(bots) and num_of_turns < max_turns:
   # For every bot in the list of bots, if the bot has not reached the end, add a new move to the robot_moves deque
   # Add your code below!
+  for bot in bots:
+    if not bot.has_finished:
+      robot_moves.append(rr.compute_robot_logic(walls, goal, bot))
 
   num_of_turns += 1
 
