@@ -2,7 +2,7 @@ import robot_race_functions as rr
 from collections import deque, Counter, namedtuple
 from time import time, sleep
 
-maze_file_name = 'maze_data_1.csv'
+maze_file_name = 'race-tracks/maze_data_3.csv'
 seconds_between_turns = 0.3
 max_turns = 35
 
